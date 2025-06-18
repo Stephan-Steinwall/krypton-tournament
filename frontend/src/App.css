@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Venite-Adoremus';
+  src: url('/frontend/public/fonts/Venite-Adoremus.otf') format('opentype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Venite-Adoremus-Straight';
+  src: url('/frontend/public/fonts/Venite-Adoremus-Straight.otf') format('opentype');
+  font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');

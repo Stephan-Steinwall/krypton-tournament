@@ -244,7 +244,7 @@ const NewsFeed = () => {
         
         // Enhanced loading with better UX
         setTimeout(() => {
-            fetch('http://localhost:50/api/news')
+            fetch('http://localhost:5000/api/news')
                 .then(response => response.json())
                 .then(data => {
                     setNews(data);

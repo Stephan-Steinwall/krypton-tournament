@@ -158,7 +158,7 @@ const WhatsAppChannel = () => {
                                     </p>
                                 </div>
 
-                                {/* QR Code Placeholder */}
+                                
                                 <div className="bg-white rounded-2xl p-6 mb-6 mx-auto max-w-xs">
                                     <div className="w-full h-48 bg-gradient-to-br from-gray-100 to-gray-200 rounded-xl flex items-center justify-center text-gray-600">
                                         <div className="text-center">
