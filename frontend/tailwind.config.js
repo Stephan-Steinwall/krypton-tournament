@@ -5,7 +5,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'venite': ['Venite-Adoremus', 'sans-serif'],
+        'venite-straight': ['Venite-Adoremus-Straight', 'sans-serif'],
+        'montserrat': ['Montserrat', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }

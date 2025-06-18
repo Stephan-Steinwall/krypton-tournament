@@ -7,7 +7,8 @@ import NewsFeed from './components/NewsFeed';
 import RegistrationForm from './components/RegistrationForm';
 import TeamList from './components/TeamList';
 import HeroSection from './components/HeroSection';
-
+import WhatsAppChannel from './components/WhatsappChannel';
+import OrganizingCommittee from './components/OrganizingCommittee';
 function App() {
   return (
     // Changed from flex-col to just a standard div for natural page flow
@@ -40,6 +41,14 @@ function App() {
 
         <div id="register" className="pt-20">
           <RegistrationForm />
+        </div>
+
+        <div className="pt-20">
+          <WhatsAppChannel />
+        </div>
+
+        <div className="pt-20">
+          <OrganizingCommittee />
         </div>
       </main>
 
