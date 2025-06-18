@@ -132,7 +132,7 @@ const HeroSection = () => {
           
           <div className="mx-auto w-20 sm:w-24 md:w-32 h-0.5 sm:h-1 bg-gradient-to-r from-cyan-400 to-purple-500 rounded-full mb-4 sm:mb-6"></div>
           
-          <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-gray-300 mb-3 sm:mb-4">
+          <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-gray-300 mb-3 sm:mb-4 font">
             THE SIEGE OF 
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500 ml-2 sm:ml-3">
               CHAMPIONS
