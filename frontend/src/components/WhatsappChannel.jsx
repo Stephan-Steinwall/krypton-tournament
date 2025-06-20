@@ -160,13 +160,11 @@ const WhatsAppChannel = () => {
 
                                 
                                 <div className="bg-white rounded-2xl p-6 mb-6 mx-auto max-w-xs">
-                                    <div className="w-full h-48 bg-gradient-to-br from-gray-100 to-gray-200 rounded-xl flex items-center justify-center text-gray-600">
-                                        <div className="text-center">
-                                            <div className="text-4xl mb-2">📱</div>
-                                            <div className="text-sm font-bold">QR Code</div>
-                                            <div className="text-xs">Scan to Join</div>
-                                        </div>
-                                    </div>
+                                    <img
+                                        src="/other/channelQRC.jpg"
+                                        alt="WhatsApp Channel QR Code"
+                                        className="w-full h-50 object-contain rounded-xl border-2 border-green-400/30 shadow-md bg-white"
+                                    />
                                 </div>
 
                                 {/* Action Buttons */}
