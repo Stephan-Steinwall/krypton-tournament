@@ -65,7 +65,7 @@ const OrganizingCommittee = () => {
       ign: "DINEX",
       description:
         "Ensuring fair play and maintaining competitive integrity. Former professional referee with deep game knowledge.",
-      imageUrl: "/committee/IMG_3802 - Isira Dineth Dunukara.HEIC",
+      imageUrl: "/committee/notbole.jpg",
       specialization: "Rules & Fair Play",
     },
     {
@@ -95,7 +95,7 @@ const OrganizingCommittee = () => {
       ign: "BLAKE",
       description:
         "Ensuring fair play and maintaining competitive integrity. Former professional referee with deep game knowledge.",
-      imageUrl: "/committee/blake.jpg",
+      imageUrl: "/committee/notblake.jpg",
       specialization: "Rules & Fair Play",
     },
     {
