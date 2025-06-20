@@ -155,13 +155,13 @@ const OrganizingCommittee = () => {
           <div className="absolute top-4 right-4 z-20 transform translate-x-full scale-75 opacity-0 group-hover:translate-x-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-700 ease-out">
             <div className="relative">
               {/* Main Badge Container with Cyberpunk Design */}
-              <div className="relative bg-gradient-to-br from-lime-400/95 via-green-500/95 to-emerald-600/95 backdrop-blur-xl rounded-xl px-4 py-3 border-2 border-lime-400/70 shadow-2xl shadow-lime-500/50 group-hover:shadow-lime-400/80 transition-all duration-500">
+              <div className="relative bg-gradient-to-br from-cyan-400/95 via-purple-500/95 to-cyan-600/95 backdrop-blur-xl rounded-xl px-4 py-3 border-2 border-cyan-400/70 shadow-2xl shadow-cyan-500/50 group-hover:shadow-cyan-400/80 transition-all duration-500">
                 
                 {/* Animated Corner Brackets */}
-                <div className="absolute -top-1 -left-1 w-4 h-4 border-l-2 border-t-2 border-lime-300 animate-pulse"></div>
-                <div className="absolute -top-1 -right-1 w-4 h-4 border-r-2 border-t-2 border-lime-300 animate-pulse" style={{animationDelay: '0.2s'}}></div>
-                <div className="absolute -bottom-1 -left-1 w-4 h-4 border-l-2 border-b-2 border-lime-300 animate-pulse" style={{animationDelay: '0.4s'}}></div>
-                <div className="absolute -bottom-1 -right-1 w-4 h-4 border-r-2 border-b-2 border-lime-300 animate-pulse" style={{animationDelay: '0.6s'}}></div>
+                <div className="absolute -top-1 -left-1 w-4 h-4 border-l-2 border-t-2 border-cyan-300 animate-pulse"></div>
+                <div className="absolute -top-1 -right-1 w-4 h-4 border-r-2 border-t-2 border-cyan-300 animate-pulse" style={{animationDelay: '0.2s'}}></div>
+                <div className="absolute -bottom-1 -left-1 w-4 h-4 border-l-2 border-b-2 border-cyan-300 animate-pulse" style={{animationDelay: '0.4s'}}></div>
+                <div className="absolute -bottom-1 -right-1 w-4 h-4 border-r-2 border-b-2 border-cyan-300 animate-pulse" style={{animationDelay: '0.6s'}}></div>
 
                 {/* Glitch Scan Lines */}
                 <div className="absolute inset-0 bg-gradient-to-b from-transparent via-white/10 to-transparent h-full w-full opacity-20 animate-pulse rounded-xl"></div>
@@ -170,20 +170,20 @@ const OrganizingCommittee = () => {
                 <div className="relative flex items-center space-x-3">
                   {/* Badass Gaming Icon with Animation */}
                   <div className="relative">
-                    <div className="w-8 h-8 bg-gradient-to-br from-black/80 to-gray-900/80 rounded-lg flex items-center justify-center border border-lime-500/50 shadow-inner">
-                      <svg className="w-5 h-5 text-lime-300 drop-shadow-lg animate-pulse" fill="currentColor" viewBox="0 0 24 24">
+                    <div className="w-8 h-8 bg-gradient-to-br from-black/80 to-gray-900/80 rounded-lg flex items-center justify-center border border-cyan-500/50 shadow-inner">
+                      <svg className="w-5 h-5 text-cyan-300 drop-shadow-lg animate-pulse" fill="currentColor" viewBox="0 0 24 24">
                         <path d="M12 2L13.09 8.26L22 9L13.09 9.74L12 16L10.91 9.74L2 9L10.91 8.26L12 2Z"/>
                         <path d="M12 17L13.09 23.26L22 24L13.09 24.74L12 31L10.91 24.74L2 24L10.91 23.26L12 17Z" opacity="0.6"/>
                       </svg>
                     </div>
                     {/* Icon pulse effect */}
-                    <div className="absolute inset-0 bg-lime-400/30 rounded-lg blur animate-ping"></div>
+                    <div className="absolute inset-0 bg-cyan-400/30 rounded-lg blur animate-ping"></div>
                   </div>
                   
                   <div className="flex-1">
                     {/* IGN Label with Matrix Effect */}
                     <div className="text-[10px] text-black font-black uppercase tracking-[0.2em] mb-1 opacity-90">
-                      <span className="bg-gradient-to-r from-lime-300 to-green-300 bg-clip-text text-transparent drop-shadow-sm">
+                      <span className="bg-gradient-to-r from-cyan-300 to-purple-300 bg-clip-text text-transparent drop-shadow-sm">
                         ⟨ IGN ⟩
                       </span>
                     </div>
@@ -199,34 +199,34 @@ const OrganizingCommittee = () => {
 
                 {/* Energy Flow Animation */}
                 <div className="absolute inset-0 rounded-xl overflow-hidden">
-                  <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-lime-300 to-transparent animate-pulse"></div>
-                  <div className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-lime-300 to-transparent animate-pulse" style={{animationDelay: '1s'}}></div>
+                  <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-cyan-300 to-transparent animate-pulse"></div>
+                  <div className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-purple-300 to-transparent animate-pulse" style={{animationDelay: '1s'}}></div>
                 </div>
               </div>
               
               {/* Outer Glow Effects */}
-              <div className="absolute inset-0 bg-gradient-to-r from-lime-500/40 to-green-500/40 rounded-xl blur-xl opacity-80 animate-pulse"></div>
-              <div className="absolute inset-0 bg-gradient-to-r from-lime-400/20 to-green-400/20 rounded-xl blur-2xl opacity-60"></div>
+              <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/40 to-purple-500/40 rounded-xl blur-xl opacity-80 animate-pulse"></div>
+              <div className="absolute inset-0 bg-gradient-to-r from-cyan-400/20 to-purple-400/20 rounded-xl blur-2xl opacity-60"></div>
               
               {/* Energy Connection Line */}
-              <div className="absolute left-0 top-1/2 transform -translate-y-1/2 -translate-x-4 w-4 h-0.5 bg-gradient-to-l from-lime-400 via-lime-500 to-transparent shadow-lg shadow-lime-500/50">
-                <div className="absolute inset-0 bg-gradient-to-l from-lime-300 to-transparent animate-pulse"></div>
+              <div className="absolute left-0 top-1/2 transform -translate-y-1/2 -translate-x-4 w-4 h-0.5 bg-gradient-to-l from-cyan-400 via-purple-500 to-transparent shadow-lg shadow-cyan-500/50">
+                <div className="absolute inset-0 bg-gradient-to-l from-cyan-300 to-transparent animate-pulse"></div>
               </div>
 
               {/* Particle Effects */}
-              <div className="absolute -top-2 -left-2 w-1 h-1 bg-lime-400 rounded-full animate-ping" style={{animationDelay: '0.5s'}}></div>
-              <div className="absolute -top-1 -right-3 w-0.5 h-0.5 bg-green-400 rounded-full animate-ping" style={{animationDelay: '1.2s'}}></div>
-              <div className="absolute -bottom-2 -right-1 w-1 h-1 bg-lime-300 rounded-full animate-ping" style={{animationDelay: '0.8s'}}></div>
+              <div className="absolute -top-2 -left-2 w-1 h-1 bg-cyan-400 rounded-full animate-ping" style={{animationDelay: '0.5s'}}></div>
+              <div className="absolute -top-1 -right-3 w-0.5 h-0.5 bg-purple-400 rounded-full animate-ping" style={{animationDelay: '1.2s'}}></div>
+              <div className="absolute -bottom-2 -right-1 w-1 h-1 bg-cyan-300 rounded-full animate-ping" style={{animationDelay: '0.8s'}}></div>
             </div>
           </div>
 
           {/* Member Photo */}
-          <div className="relative h-48 overflow-hidden">
+          <div className="relative h-64 overflow-hidden">
             {!imageError ? (
               <img
                 src={member.imageUrl}
                 alt={member.name}
-                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                className="w-full h-full object-cover filter grayscale group-hover:grayscale-0 group-hover:scale-110 transition-all duration-700"
                 onError={handleImageError}
               />
             ) : (
